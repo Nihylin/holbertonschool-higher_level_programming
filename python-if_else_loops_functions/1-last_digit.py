@@ -1,12 +1,11 @@
 #!/usr/bin/python3
-import random
-number = random.randint(-10000, 10000)
-lastD = abs(number) % 10
-if number < 0:
-    lastD = -lastD
-if lastD < 6:
-    print(f"Last digit of {number} is {lastD} and is less than 6 and not 0")
-elif lastD == 0:
-    print(f"Last digit of {number} is {lastD} and is 0")
-elif lastD > 5:
-    print(f"Last digit of {number} is {lastD} and is greater than 5")
+def fizzbuzz():
+    for number in range(1, 101):
+        if number % 15 == 0:
+            print("FizzBuzz", end=" ")
+        elif number % 3 == 0:
+            print("Fizz", end=" ")
+        elif number % 5 == 0:
+            print("Buzz", end=" ")
+        else:
+            print(number, end=" ")
