@@ -26,5 +26,7 @@
 !11-*.py
 !12-*.py
 
+*-main.py
+
 0-import_add.py
 hidden_4.pyc
