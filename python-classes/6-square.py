@@ -7,8 +7,8 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Square class constructor"""
-        self.__size = size
-        self.__position = position
+        self.size = size
+        self.position = position
 
     def get_size(self):
         """Size Getter method"""
