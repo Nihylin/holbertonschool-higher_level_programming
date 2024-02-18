@@ -31,6 +31,7 @@
 8-my_class.py
 8-my_class_2.py
 8-main_2.py
+!19-copy_list.py
 
 *.json
 *.pyc
