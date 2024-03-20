@@ -7,7 +7,6 @@
 # Unignore all dirs
 !*/
 
-/.devcontainer
 /.vscode
 .DS_Store
 
@@ -35,6 +34,7 @@
 !python-almost_a_circle/*/*.py
 
 *.json
+!devcontainer.json
 *.pyc
 
 my_file_0.txt

@@ -1,0 +1,5 @@
+-- create devcontainer.json & docker-compose.yml files
+-- setup said files
+-- open in container
+-- cat ./SQL_introduction/9-full_creation.sql | mysql -hlocalhost -uroot -p
+-- tada
